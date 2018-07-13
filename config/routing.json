@@ -1,0 +1,192 @@
+{
+    "/mapAll":"HomeController:markerMap",
+    "/espace-Pros/formulaire":"ProsController:villeFormulaire",
+    "/liste":"HomeController:jquery",
+    "/": "HomeController:getHome",
+    "/search": "HomeController:getSearch",
+   "/espace-foodtruck": "DefaultController:getSpaceFoodtruck",
+    "/foodtrucks": "FoodtruckController:getAll",
+    "/espace-foodtruck/signUp": "DefaultController:getSignUpFoodtruck",
+     "/deconnexion-foodtruck":"DefaultController:logout",
+    "/espace-foodtruck/login": "DefaultController:getLogInFoodtruck",
+    "/espace-foodtruck/profil": "DefaultController:getProfileFoodtruck",
+    "/inscription-foodtruck":
+    {
+        "POST":"FoodtruckController:signUpFoodtruck"
+    },
+     "/espace-foodtruck/theme": "FoodtruckController:getAllTheme",
+     "/infoFoodTruck/(:)":"HomeController:getIdFood",
+   
+     "/connexion-foodtruck":
+    {
+        "POST":"FoodtruckController:loginFoodtruck"
+    }, 
+      "/creer-une-carte/(:)":"DefaultController:getFormCard",
+    "/choisir-un-theme/(:)":"FoodtruckController:addTheme",
+   
+    "/carte":"DefaultController:getAllcards",
+    "/creer-un-menu/(:)":"DefaultController:getFormMenu",
+    "/ajouter-un-menu/(:)":"FoodtruckController:addMenu",
+    "/menu/(:)":"DefaultController:getMenu",
+
+     "/creer-une-carte":"DefaultController:getFormCard",
+     "/ajouter-une-carte/(:)":
+    {
+        "POST":"FoodtruckController:addCard"
+    },
+     "/espace-pros":"DefaultController:getPros",
+    "/espace-Pros/inscription-Pros":"DefaultController:getSignUpPros",
+    "/espace-pros/login": "DefaultController:getLogInPros",
+    
+    "/inscription-pros":
+    {
+        "POST":"ProsController:signUpPros"
+    },
+  
+    "/connexion-pros":"ProsController:loginPros",
+   
+    "/espace-pros/creation-evenement":
+    {
+        "POST":"ProsController:createEvent"
+    }, 
+     "/espace-pros/profile": "DefaultController:getProfilePros",
+    
+     "/espace-administration": "DefaultController:getProfileAdmin",
+    
+    "/connexion-administrateur":
+    {
+        "POST":"AdminController:loginAdmin"
+    }, 
+    
+     "/administration": "DefaultController:getAdmin",
+    "/se-positionner-event":
+    {
+        "POST":"FoodtruckController:toPositionYourself"
+    },
+    
+    
+    "/espace-pros/messages/(:)": "ProsController:getProPm",
+    "/espace-pros/notification/(:)": "ProsController:updatePm",
+    "/espace-pros/voir-message/(:)": "ProsController:voirMessage",
+    "/contact/create-message/": "DefaultController:createPm",
+    "/ContactPro/(:)": "DefaultController:vuContactPro",
+    "/espace-pros/creation-messsage":
+    {
+        "POST":"ProsController:reponse"
+    },
+    
+    
+    
+    "/espace-foodtruck/messages/(:)": "FoodtruckController:getProPm",
+    "/espace-foodtruck/voir-message/(:)": "FoodtruckController:voirMessage",
+    "/contact/create-message/": "DefaultController:createPm",
+    "/ContactFoodtruck/(:)": "DefaultController:vuContactFood",
+    "/espace-foodtruck/creation-messsage":
+    {
+        "POST":"FoodtruckController:reponse"
+    },
+    
+    "/espace-client/messages/(:)": "CustomerController:getProPm",
+    "/espace-client/voir-message/(:)": "CustomerController:voirMessage",
+    "/contact/create-message/": "DefaultController:createPm",
+    "/ContactClient/(:)": "DefaultController:vuContactClient",
+    "/espace-client/creation-messsage":
+    {
+        "POST":"CustomerController:reponse"
+    },
+ 
+
+    "/espace-client": "DefaultController:getSpaceCustomer",
+    "/espace-client/signUp": "DefaultController:getSignUpCustomer",
+    "/espace-client/login": "DefaultController:getLogInCustomer",
+    "/espace-client/profil": "DefaultController:getProfileCustomer",
+    "/modifier-info-client/(:)":"CustomerController:updateCustomer",
+     "/info-client/update":{
+         "POST":"CustomerController:UpdateInfoCustomer"
+     },
+    "/inscription-client":
+    {
+        "POST":"CustomerController:signUpCustomer"
+    }, 
+    "/connexion-client":
+    {
+        "POST":"CustomerController:loginCustomer"
+    },
+    "/deconnexion-client":" CustomerController:logoutCustomer",
+
+    "/creer-une-carte":"DefaultController:getFormCard",
+    "/ajouter-une-carte":
+    {
+        "POST":"FoodtruckController:addCard"
+    },
+
+
+
+    "/api/users/(:)":{
+        "GET":"UserController:getUser",
+        "PUT":"UserController:updateUser",
+        "DELETE":"UserController:deleteUser"
+    },
+    
+    
+     "/espace-Pros-evenement/(:)":
+    {
+        "GET":"ProsController:getProEvent"
+    },
+    
+     "/deconnexion-pro":"ProsController:logoutPro",
+    
+     "/espace-foodtruck/evenement":"FoodtruckController:getAllEvents",
+    
+    "/espace-administration/evenement":"FoodtruckController:getAllEvents",
+    
+    "/administration/administration-client":"AdminController:getClients",
+    
+    "/administration-infoClient/(:)":"AdminController:getIdInfoClient",
+    
+    "/administration-infoClient-suppression/(:)":"AdminController:deleteClient",
+    
+    "/administration/administration-foodtruck":"AdminController:getFoodtruck",
+    
+    "/administration-infoFoodtruck/(:)":"AdminController:getIdInfoFoodtruck",
+    
+    "/administration-infoFoodtruck-suppression/(:)":"AdminController:deleteFoodtruck",
+    
+    "/administration/administration-evenement":"AdminController:getAllEvents",
+    
+    "/administration-infoEvenement/(:)":"AdminController:getIdInfoEvent",
+    
+    "/deconnexion-admin":"AdminController:logoutAdmin",
+    
+    "/administration-infoEvent-validation/":"AdminController:validEvent",
+      
+    "/administration-infoEvent-suppression/(:)":"AdminController:deleteEvent",
+    "/popup":"DefaultController:popup",
+    "/espace-pro-candidature/(:)":"ProsController:getCandidature",
+    "/espace-pro-validation-candidature/":"ProsController:validFoodtruck",
+    "/foodtruck-mes-evenements/(:)":"FoodtruckController:getMyEvents",
+    
+     "/foodtruck/(:)":"DefaultController:getFoodtruck",
+    "/commande/(:)":"DefaultController:getCommand",
+    "/agenda-foodtruck/(:)":"FoodtruckController:createAgenda",
+     "/agenda-update-foodtruck/":"FoodtruckController:updateAgenda",
+    "/foodtruck/valider-agenda/":"FoodtruckController:validerAgenda",
+    "/commande-rapide/(:)":"DefaultController:getFormFastCommand",
+    
+     "/espace-admin/messages/(:)": "AdminController:getProPm",
+    "/espace-admin/notification/(:)": "AdminController:updatePm",
+    "/espace-admin/voir-message/(:)": "AdminController:voirMessage",
+    "/contact/create-message/": "DefaultController:createPm",
+    "/ContactAdmin/(:)": "DefaultController:vuContactPro",
+    "/espace-admin/creation-messsage":
+    {
+        "POST":"AdminController:reponse"
+    },
+    "/commande/(:)":"DefaultController:getCommand",
+    "/commande-rapide/(:)":"DefaultController:getFormFastCommand",
+    "/ajouter-une-commande/(:)":"CommandController:addInBasket",
+
+
+    "/deconnexion":"DefaultController:logout",
+    "/tous-les-foodtrucks":"DefaultController:getAllFoodtrucks"
+}

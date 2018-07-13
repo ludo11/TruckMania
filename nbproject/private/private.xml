@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+<<<<<<< HEAD
+            <file>file:/home/ludo/ServeurWeb/Trucksmania/css/magister.css</file>
+            <file>file:/home/ludo/ServeurWeb/Trucksmania/views/home.php</file>
+=======
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/dao/DAOCommandes.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/home.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/dao/DAOEvents.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/core/Routing.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/notification.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/dao/DAOPm.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/controllers/FoodtruckController.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/dao/DAOClients.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/validationCandidatureParPro.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/espacePros.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ClientMessages.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/controllers/CustomerController.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/EventForFoodtruck.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/foodId.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/profilePros.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/dao/DAOVisiteurs.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/controllers/DefaultController.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ClientVoirMessage.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/config/routing.json</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ContactPro.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/InscriptionPros.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ProEventPerso.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ContactClient.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/profileFoodtruck.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/loginPros.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/layout.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/profileCustomer.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/FoodtruckMessages.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/controllers/ProsController.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/dao/DAODefault.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/css/magister.css</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/FoodtruckVoirMessage.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/administrationInfoFoodtruck.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ProMessages.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/header.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ContactFoodtruck.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/ProVoirMessage.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/views/updateCustomer.php</file>
+            <file>file:/home/reziki/ServeurWeb/Trucksmania/core/Controller.php</file>
+>>>>>>> ca8343f194f5518bfbe7056768a95af7504fc4ed
+        </group>
+    </open-files>
+</project-private>

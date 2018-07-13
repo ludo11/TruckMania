@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>CSS3 Form Design - Vintage | Script Tutorials</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link href="css/forms.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header tabindex="0">
+            <h2>CSS3 Form Design - Vintage</h2>
+            <a  href="http://www.script-tutorials.com/css3-form-design-vintage/" class="stuts">Back to original tutorial on <span>Script Tutorials</span></a>
+        </header>
+
+        <form action="#" method="post">
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <ul>
+                    <li>
+                        <label for="text">Text Field</label>
+                        <input type="text" class="required" name="text"> 
+                    </li>
+                    <li>
+                        <label for="selector">Selector</label>
+                        <div class="selector">
+                            <span style="-moz-user-select: none;">Please Select...</span>
+                            <select class="selectors" name="selector">
+                                <option value="" selected="">Please Select...</option> 
+                                <option>Option 1</option> 
+                                <option>Option 2</option> 
+                                <option>Option 3</option> 
+                                <option>Option 4</option> 
+                                <option>Option 5</option> 
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="selector">Disabled</label>
+                        <div class="selector disabled">
+                            <span></span>
+                            <select class="selectors" name="selector"></select>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="checkbox">Checkbox active</label>
+                        <div class="checker">
+                            <span class=""></span>
+                            <input type="checkbox" name="checkbox" />
+                        </div>
+                        <label for="checkboxc">Checkbox checked</label>
+                        <div class="checker">
+                            <span class="checked"></span>
+                            <input type="checkbox" name="checkboxc" />
+                        </div>
+                    </li>
+                    <li>
+                        <label for="radio">Radio checked</label>
+                        <div class="radio">
+                            <span class="checked"></span>
+                            <input type="radio" name="radio" value="radio1">
+                        </div>
+
+                        <label for="radio2">Radio unchecked</label>
+                        <div class="radio">
+                            <span></span>
+                            <input type="radio" name="radio2" value="radio2">
+                        </div>
+                    </li>
+                    <li>
+                        <label for="button">Buttons</label>
+                        <div class="button"><span style="-moz-user-select: none;">Button 1</span></div>
+                        <div class="button"><span style="-moz-user-select: none;">Button 2</span></div>
+                        <div class="button disabled"><span style="-moz-user-select: none;">Button 3</span></div>
+                    </li>
+                    <li>
+                        <label for="file">File</label>
+                        <div class="uploader">
+                            <span style="-moz-user-select: none;" class="filename">Please select file</span>
+                            <span style="-moz-user-select: none;" class="action">Upload</span>
+                            <input type="file" name="file" />
+                        </div>
+                    </li>
+                    <li>
+                        <label for="textarea">Textarea</label>
+                        <textarea name="textarea"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" name="submit">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
